@@ -9,5 +9,10 @@ pipeline {
                 echo 'Hello Hongik!!!!!!!!'
             }
         }
+        stage('date') {
+            steps {
+                date
+            }
+        }
     }
 }
