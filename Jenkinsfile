@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello Hongik!!!!!!!!'
+                echo 'Hello Hongik!!!'
             }
         }
         stage('Prepare Today Date') {
