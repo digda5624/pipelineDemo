@@ -24,7 +24,7 @@ pipeline {
         }
         stage('Print Today Date') {
             steps {
-                  // Prepare Today Date 에서 구한 today 날짜 를 출력한다.
+                  // Prepare Today Date 에서 구한 today 날짜 
                   echo today
             } 
         }
